@@ -2,6 +2,18 @@
 
 > vue2 模板项目
 
+## 介绍
+
+<strong>
+
+本项目模板使用vue-cli生成
+
+自带router，sass语法支持，autoprefixer样式前缀添加，eslint校验
+
+后续增加了pre-commit校验 + px2rem语法转换
+
+</strong>
+
 ## Build Setup
 
 ``` bash
@@ -26,5 +38,3 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
