@@ -5,6 +5,11 @@ const partRoutesA = [
     path: '/demo',
     name: 'demo',
     component: Demo
+  },
+  {
+    path: '/',
+    name: 'demo',
+    component: Demo
   }
 ]
 

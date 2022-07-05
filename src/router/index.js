@@ -1,16 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
 import partRoutesA from './partA'
 
 Vue.use(Router)
 
+const routes = [].concat(partRoutesA)
+
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
-  ].concat(partRoutesA)
+  routes
 })
